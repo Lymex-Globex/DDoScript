@@ -1,6 +1,7 @@
 import socket, sys, threading
 
-target = "unknown"
+targetinput = input()
+target = targetinput
 fake_ip = '285.5.24.95'
 port = 80
 
